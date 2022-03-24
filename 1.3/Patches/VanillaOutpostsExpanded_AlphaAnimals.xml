@@ -8,15 +8,9 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationInsert">
-					<xpath>Defs/WorldObjectDef[defName="Outpost_Mining"]/modExtensions/li/ResultOptions/li[Thing="Steel"]</xpath>
+					<xpath>Defs/WorldObjectDef[defName="Outpost_Mining"]/modExtensions/li/Resources/ComponentIndustrial</xpath>
 					<value>
-						<li>
-							<BaseAmount>750</BaseAmount>
-							<Thing>AA_SkySteel</Thing>
-							<MinSkills>
-							  <Mining>20</Mining>
-							</MinSkills>
-						  </li>
+						<AA_SkySteel>20</AA_SkySteel>
 					</value>
 				</li>
 			</operations>
